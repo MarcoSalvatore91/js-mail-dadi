@@ -20,6 +20,10 @@ for (let i = 0; i < email.length; i++) {
         console.log(emailCheck);
     }
 }
+if (emailCheck === '') {
+    emailCheck = `E-mail non registrata`;
+    console.log(emailCheck);
+} 
 
 // # Gioco dei dadi
 
