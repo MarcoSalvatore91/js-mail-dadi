@@ -4,6 +4,7 @@ console.log("JS OK!")
 // 1- Generare un numero random da 1 a 6, sia per il giocatore sia per il computer
 // 2- Stabilire in vincitore per il punteggio piu' alto
 // 3- Stampare in console i tiri dei dadi e il risultato
+// 5- Stampare in pagine
 
 // 1a- Genera numero random per utente
 const userNumber = Math.floor(Math.random() * 6) + 1;
@@ -27,3 +28,7 @@ if (userNumber > cpuNumber) {
 console.log(userNumber); 
 console.log(cpuNumber);
 console.log(winner);
+
+document.getElementById('user').innerHTML = userNumber;
+document.getElementById('cpu').innerHTML = cpuNumber;
+document.getElementById('result').innerHTML = winner;
