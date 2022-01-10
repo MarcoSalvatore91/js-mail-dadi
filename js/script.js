@@ -6,6 +6,9 @@ console.log("JS OK!");
 // 2- Chiedi all'utente la sua email (Prompt)
 // 3- Controllare se sia presente nella lista di chi può accedere
 // 4- Infine stampare un messaggio in console sull'esito
+// 5- Stampare in pagina
+
+const emailValidation = document.getElementById('email')
 
 // 1- Creare un array di email
 const email = ['marco@hotmail.com', 'andrea@hotmail.com', 'luca@hotmail.com', 'luigi@hotmail.com'];
@@ -24,3 +27,7 @@ if (emailCheck === '') {
 } 
 // 4- Infine stampare un messaggio in console sull'esito
 console.log(emailCheck);
+
+// 5- Stampare in pagina
+
+emailValidation.innerText = emailCheck;
