@@ -10,7 +10,10 @@ controlla che sia nella lista di chi può accedere, stampa un messaggio appropri
 // 3- Controllare se sia presente nella lista di chi può accedere
 // 4- Infine stampare un messaggio in console sull'esito
 
+const email = ['marco@hotmail.com', 'andrea@hotmail.com', 'luca@hotmail.com', 'luigi@hotmail.com'];
 
+const askEmail = prompt('Inserisci la tua e-mail', 'marco@hotmail.com');
+console.log(askEmail);
 
 /* # Gioco dei dadi
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
