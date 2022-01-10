@@ -1,0 +1,26 @@
+/* User Random Number */
+
+#user-img {
+    width: 300px;
+}
+
+#user-random p {
+    font-size: 100px;
+}
+
+/* Cpu Random Number */
+
+#cpu-random img {
+    width: 500px;
+    height: 300px;
+}
+
+#cpu-random p {
+    font-size: 100px;
+}
+
+/* Result */
+
+#result {
+    font-size: 100px;
+}
