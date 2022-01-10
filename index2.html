@@ -9,9 +9,19 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="user"></p>
-    <p id="cpu"></p>
-    <p id="result"></p>
+    <div class="d-flex justify-content-between">
+        <div id="user-random">
+            <img class="d-block" id="user-img" src="https://media.istockphoto.com/vectors/stressed-man-vector-id519911945" alt="user">
+            <p class="d-inline-block">User</p>
+            <p class="d-inline-block ms-5" id="user"></p>
+        </div>
+        <div id="cpu-random">
+            <img class="d-block" src="https://giochipertutti.org/wp-content/uploads/2020/01/Tom-Nook-non-%C3%A8-male-Una-difesa-del-cattivo-uomo.jpg" alt="cpu">
+            <p class="d-inline-block">Cpu</p>
+            <p class="d-inline-block ms-5" id="cpu"></p>
+        </div>
+    </div>
+    <p class="text-center text-danger" id="result"></p>
     <script src="js/script2.js"></script>
 </body>
 </html>
